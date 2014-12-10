@@ -1,0 +1,49 @@
+Script started on Sat Dec  6 02:55:42 2014
+[?1034hbash-3.2$ ./TeacherBasics 
+Hello there! I am your teacher for the day. 
+What do you want to learn? 
+ 1)Data Types 
+ 2)Modifiers1
+
+There are four basic data types: char-character, int-integer, float, and double. 
+Which data type do you want to learn about? 
+integer
+Input either 'char', 'int', 'float' or 'double'. 
+Which data type do you want to learn about? 
+int
+int is a data type used to store numerical data. 
+Storage size: 4 bytes  
+Value Range:-32,768 to 32,767  
+Continue (Y/N)? 
+y
+Hello there! I am your teacher for the day. 
+What do you want to learn? 
+ 1)Data Types 
+ 2)Modifiers1
+
+There are four basic data types: char-character, int-integer, float, and double. 
+Which data type do you want to learn about? 
+float
+float is a data type used to store decimal numbers up to 6 decimal places. 
+Storage size: 4 bytes  
+Value Range:1.2E-38 to 3.4E+38 
+Continue (Y/N)? 
+y
+Hello there! I am your teacher for the day. 
+What do you want to learn? 
+ 1)Data Types 
+ 2)Modifiersmo  2
+
+There are five basic modifiers: signed, unsigned, short, long and const-constant. 
+Which modifier do you want to learn about? 
+signed
+All data types are “signed” by default. Signed Data Modifier implies that the data type variable can store positive values as well as negative values. 
+For example: signed int temperature; 
+Size of signed int is 4 bytes
+Size of signed char is 1 bytes
+Continue (Y/N)? 
+n
+bash-3.2$ exit
+exit
+
+Script done on Sat Dec  6 02:56:59 2014
