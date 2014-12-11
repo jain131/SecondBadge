@@ -57,24 +57,27 @@ void Bitwise();
 * Date Developer Action
 * 8/20/2004 Jane Doe Changed the equation used to convert
 * Celsius to Fahrenheit.
+* i int for-loop
+* j int for-loop
 * 
 ***********************************************************************/
 
 /*!
+*
 * 1 while loop
+*
 * 2 if- else selection (NESTED)
+*
 * 2 switch-case constructs
+*
 * 1 for loop
+*
+* 1 nested for loop construct
+*
 */
 
 int main()
 {
-  //Welcome Screen
-  printf("Welcome to Calculator. \n");
-  /*! 
-  * Flowchart diagram: 
-  * \image html FlowchartCalc.jpeg
-  */
 
   char check='y';
   int ch;
@@ -82,6 +85,25 @@ int main()
   float var1, var2;
   float res;
   FILE * Log;
+  int i=0;
+  int j=0;
+
+  //Welcome Screen
+  for(i=0 ; i<8 ; i++)
+  {
+    for(j=8-i ; j<8 ; j++)
+    {
+      printf("*");
+    }
+    printf("\n");
+  }
+  printf("Welcome to Calculator. \n");
+  /*! 
+  * Flowchart diagram: 
+  * \image html FlowchartCalc.jpeg
+  */
+
+  
 
   //Opening a new file for Logging info. Opening in reading and writing mode
   Log = fopen ("Log.txt", "w+");
